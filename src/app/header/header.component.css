@@ -1,0 +1,144 @@
+/* .header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    border-bottom: ipx solid white;
+    overflow: auto;
+    white-space: nowrap; 
+}
+
+.logo {
+    font-size: 20pt;
+    font-family: 'Times New Roman';
+    color: #0368ab;
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    white-space: inherit;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+     width: 50%; 
+    float: right;
+     padding-right: 5px; 
+    white-space: inherit;
+
+    
+}
+.social-right
+{
+    padding-right: 5px;
+}
+.contact {
+    font: 12px Roboto,sans-serif;
+    color: #000000;
+    left: 80%;
+}
+.info {
+    font: 14px Roboto,sans-serif;
+    color: #666666;
+    padding-right: 5px;
+    padding-left: 5px;
+}  
+
+.hor-list {
+    display: inline;
+    font: 14px Roboto,sans-serif;
+    color: #666666;
+    /* padding-right: 60px; 
+    white-space: inherit;
+    padding : 10px;
+} */
+
+.head{
+
+    display: flex;
+}
+.head-left{
+
+flex-basis: 20%;
+}
+
+.head-center{
+
+    flex-basis: 60%;
+padding: 30px;
+}
+
+.head-right{
+
+    flex-basis: 20%;
+}
+
+.container{ 
+
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: whitesmoke; */
+    border-bottom: ipx solid white;
+    overflow: auto;
+    white-space: nowrap; 
+
+}
+
+.ul-list{
+
+    display: inline;
+    float: right;
+    margin-right: 90px;
+}
+
+.head-center .ul-list .li-items{
+
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+    font-family: Roboto , sans-serif;
+    color: #666666;
+    margin-top: 50px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.head-center .ul-list .li-items:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #3b9eef
+  }
+
+  .logoimg {
+   
+    float: left;
+    margin: 20px;
+}
+
+.social-right{
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.head-right label{
+
+    margin-top: 40px;
+    /* float: right; */
+    font-family: Roboto , sans-serif;
+    color: darkblue
+}
