@@ -50,18 +50,18 @@
     
     <ul class="ul-list">
         
-        <li class="li-items"><i class="fa fa-home" ><b> HOME</b></i></li>
-        <li class="li-items"><i class="fa fa-user"> <b>ABOUT US</b></i></li>
-        <li class="li-items"><i class="fa fa-product-hunt"><b>  PRODUCTS</b></i></li>
-        <li class="li-items"><i class="fa fa-puzzle-piece"><b>  SERVICES</b></i></li>
-        <li class="li-items1"><i class="fa fa-phone"> <b> CONTACT US</b></i></li>
-
+        <li class="li-items"><a class="anchor-clean" routerLink="home"><i class="fa fa-home" ></i> HOME </a></li>
+        <li class="li-items"><a class="anchor-clean" routerLink="aboutus"><i class="fa fa-user"></i> ABOUT US </a></li>
+        <li class="li-items"><a class="anchor-clean" routerLink="home"><i class="fa fa-product-hunt"></i> PRODUCTS </a></li>
+        <li class="li-items"><a class="anchor-clean" routerLink="home"><i class="fa fa-puzzle-piece"></i> SERVICES </a></li>
+        <li class="li-items1"><a class="anchor-clean" routerLink="contactus"><i class="fa fa-phone"></i> CONTACT US </a></li>
     </ul>
-  
+    <router-outlet></router-outlet>
 </div>
    
    <button class="button1" ><span>Request a quote </span></button> 
 </div>
 
+<router-outlet></router-outlet>
 
   

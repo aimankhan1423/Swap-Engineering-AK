@@ -313,3 +313,15 @@ form.example input[type=text] {
     opacity: 1;
     right: 0;
   }
+
+
+  .anchor-clean {
+    text-decoration: none;
+    font-family:'Times New Roman';
+    color: #1a9ce2;
+    font-weight: bold;
+  }
+
+  .anchor-clean:hover {
+    color: black;
+  }

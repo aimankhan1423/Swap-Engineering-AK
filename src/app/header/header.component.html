@@ -47,19 +47,15 @@
     <div class="head-center">
     
         <div class="container">
-    
             <ul class="ul-list">
-        
-                <li class="li-items"><i class="fa fa-home" >Home</i></li>
-                <li class="li-items"><i class="fa fa-user">About us</i></li>
-                <li class="li-items"><i class="fa fa-product-hunt">Products</i></li>
-                <li class="li-items"><i class="fa fa-puzzle-piece">Services</i></li>
-                <li class="li-items"><i class="fa fa-phone">Contact Us</i></li>
-        
+                <li class="li-items"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li class="li-items"><a routerLink="aboutus"><i class="fa fa-user"></i>About Us</a></li>
+                <li class="li-items"><a href="#"><i class="fa fa-product-hunt"></i>Products</a></li>
+                <li class="li-items"><a href="#"><i class="fa fa-puzzle-piece"></i>Services</a></li>
+                <li class="li-items"><a routerLink="contactus"><i class="fa fa-phone"></i>Contact Us</a></li>
             </ul>
-    
         </div>
-        
+        <router-outlet></router-outlet>
     </div>
     
     <div class="head-right">

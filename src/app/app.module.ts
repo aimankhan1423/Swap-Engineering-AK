@@ -23,7 +23,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { Header1Component } from './header1/header1.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactusComponent } from './contactus/contactus.component';
-import { AboutComponent } from './about/about.component'
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +38,7 @@ import { AboutComponent } from './about/about.component'
   ],
   imports: [
     BrowserModule,
-     AppRoutingModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
     MatSidenavModule,
@@ -51,11 +51,8 @@ import { AboutComponent } from './about/about.component'
     ButtonsModule, InputsModule,
     MatButtonModule,
     FontAwesomeModule,
-   
     MatButtonModule,
-   
     MatCarouselModule.forRoot()
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
