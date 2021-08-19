@@ -7,8 +7,8 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   templateUrl: './body.component.html',
   styleUrls: ['./body.component.css', './body.component.scss']
 })
-export class BodyComponent implements OnInit {
 
+export class BodyComponent implements OnInit {
   safeSrc: SafeResourceUrl;
   constructor(private sanitizer: DomSanitizer) { 
     this.safeSrc =  this.sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/0_ZcCqqpS2o");
